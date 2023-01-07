@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -810,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -890,6 +890,16 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    
+   
+    #bloc-7 > div > div > h2 {
+        top:52px!important;
+    }
+    #bloc-7 > div > div > div:nth-child(3) > p{
+        margin-left: 51px!important;
+        width: 100%;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1037,6 +1047,87 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        text-align: center;
+    }
+}
+
+
+/* New */
+#bloc-0 > div > nav > div.navbar-header > div:nth-child(1){
+color: #000000!important;}
+#bloc-7 > div > div > div:nth-child(3) > p{
+    font-size: 16px;
+    margin: 25% 131px;
+}
+
+#bloc-7 > div > div > h2{
+    position: relative;
+    left: 13%;
+    top: 121px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-center{
+    font-size: 15px;
+    color: black!important;
+}
+
+#bloc-3-what-i-do > div > div > div > h2{
+    font-size: 22px;
+    color: #F3976C!important;
+}
+
+#bloc-5-cta > div > div > h2{
+    font-size: 22px;
+}
+
+#bloc-6 > div > div > div > h1{
+font-size: 38px;
+color: black!important;
+}
+
+
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > a > span, #bloc-8 > div > div > div > p, #bloc-8 > div > div > div > div:nth-child(3) > div,#bloc-2-services > div > div.row.voffset-lg.med-width-whitespace > div > p, #bloc-2-services > div > div.row.voffset-lg.med-width-whitespace > div > h3{
+color:black!important;
+}
+
+.fa-solid.fa-pager,.fa-solid.fa-palette,.fa-regular.fa-lightbulb {
+    font-size: 60px!important;
+    color:#364577!important;
+}
+
+#bloc-2-services > div > div.row.voffset-lg.med-width-whitespace{
+
+    margin-top: 15px;
+}
+#bloc-2-services > div > div.row.voffset-lg.med-width-whitespace > div > div {
+    margin-bottom: 21px;
+}
+
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > i , #bloc-8 > div > div > div > div > div > div{
+    color: black!important;
+    font-size: 30px!important;
+}
+
+@media (min-width: 200px) and (max-width:400px) {
+
+    #bloc-2-services > div > div:nth-child(1) > div > p > img{
+        width: 100%;
+        height: 60px;
+    }
+
+    #bloc-2-services > div > div.row.voffset-lg.voffset > div > p > img{
+        width: 100%;
+        height: 119px;
+    }
+
+    #bloc-4-portfolio > div > div:nth-child(1) > div > p > img{
+        width:100%
+    }
+
+    #bloc-8 > div > div > div > div:nth-child(3) > div{
         text-align: center;
     }
 }
